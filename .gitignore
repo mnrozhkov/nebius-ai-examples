@@ -1,6 +1,7 @@
 # Project
 dev/*
 mlflow-examples/db/*
+*.pem
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
