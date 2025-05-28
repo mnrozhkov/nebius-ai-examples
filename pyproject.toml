@@ -16,12 +16,11 @@ dev = [
     "ruff>=0.11.11",
 ]
 finetuning = [
-    "transformers",
-    "peft",
-    "accelerate",
-    "trl",
-    "bitsandbytes",
-    "datasets",
+    "accelerate>=1.7.0",
+    "datasets>=3.6.0",
+    "peft>=0.15.2",
+    "transformers>=4.52.3",
+    "trl>=0.18.0",
 ]
 
 [tool.uv.workspace]
