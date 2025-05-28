@@ -15,3 +15,14 @@ dev = [
     "mypy>=1.15.0",
     "ruff>=0.11.11",
 ]
+finetuning = [
+    "transformers",
+    "peft",
+    "accelerate",
+    "trl",
+    "bitsandbytes",
+    "datasets",
+]
+
+[tool.uv.workspace]
+members = ["fine-tune-llm"]

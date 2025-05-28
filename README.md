@@ -35,6 +35,7 @@ This repository contains example notebooks and scripts demonstrating the usage o
     With the virtual environment activated, install the required Python packages:
 
     ```bash
+    # Install only main dependencies
     uv sync
     ```
 
