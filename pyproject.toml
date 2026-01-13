@@ -5,7 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11.6"
 dependencies = [
-    "mlflow==2.21.2",
+    "mlflow==3.5.0",
     "openai>=1.82.0",
     "python-dotenv>=1.1.0",
 ]
